@@ -4,13 +4,11 @@ import com.example.addressbook.model.AddressBookContact;
 import com.example.addressbook.model.Gender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
-@Component
 public class DataTransfornerImpl implements DataTransformer {
 
     private static final String DATE_PATTERN = "dd/MM/yy";
